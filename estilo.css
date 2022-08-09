@@ -21,3 +21,9 @@ h1 {
   right: 20%;
 bottom: 100px;
 }
+.menuPrincipal{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  background: grey;
+}
