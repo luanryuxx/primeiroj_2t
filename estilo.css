@@ -1,56 +1,102 @@
 body {
-  background:blueviolet;
+  background: rgb(221, 8, 8)
+  margin: 0%;
+  padding: 0%;
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position: absolute;
-  background-color: violet;
-  width:200px;
-  height:200px;
-  right:0%;
-  bottom: 100px;
-  
+  width: 200px;
+  height: 200px;
+  background: rgb(251, 255, 0);
+  left: 0;
+  bottom:0;
 }
 .caixa2 {
   position: absolute;
-  background-color: grey;
   width: 200px;
-  height: 0px;
-  right: 20%;
-bottom: 100px;
+  height: 200px;
+  background: rgb(76, 0, 255);
+  left: 205px;
+  bottom:0;
 }
-.menuPrincipal{
-  position: relative;
-  width: 100%;
-  height: 45%;
-  background: grey;
+.menuPrincipal {
+   position: absolute;
+   width: 100%;
+   height: 45px;
+   background:rgb(161, 246, 252);
+   font-family: 'Courier New', Courier, monospace;
+   top: 0;
+   left: 0;
 }
 nav ul {
   list-style-type: none;
-  margin: 0 ;
-  padding: 0 ;
-  overflow: 0 ;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
 }
 li {
   float: left;
-
 }
 li a {
   display: block;
-  color:black;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover {
-  background: black;
-  color:white;
+  background: rgb(139, 105, 201);
+  color: rgb(0, 255, 255);
 }
-#SPCC {
-  width: 10%;
+#corinthians {
+   width: 15%;
+}
+.caixaspcc {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 120px;
+  background: rgb(0, 119, 255);
+  left: 0;
+  margin: 20px;
+  border-color: rgb(0, 195, 255);
+  border-style: solid;
+  border-width: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.caixaspcc {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 120px;
+  background: rgb(39, 81, 172);
+  left: 0;
+  margin: 20px;
+  border-color: rgb(140, 140, 182);
+  border-style: solid;
+  border-width: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+}
+.rodape{
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: beige;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo{
+  position: absolute;
+  top: 45px;
 
 }
-.caixaspcc
-
